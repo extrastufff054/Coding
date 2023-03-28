@@ -13,7 +13,7 @@ int main() {
 
     // Check if key is valid
     if (key < 1 || key > 25) {
-        cerr << "Error: key must be between 1 and 25." << endl;
+        cout << "Error: key must be between 1 and 25." << endl;
         return 1;
     }
 
