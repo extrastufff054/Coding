@@ -25,8 +25,8 @@ iwconfig
 sudo airodump-ng wlan0mon
 
 ! AP-MAC & channel - you need to select your own here:
-ESSID: 90:9A:4A:B8:F3:FB
-Channel used by AP for SSID: 2
+BSID: B4:3D:08:A0:84:98
+Channel used by AP for SSID: 8
 
 !1st Window:
 !Make sure you replace the channel number and bssid with your own
