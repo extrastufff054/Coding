@@ -138,10 +138,10 @@ int main()
 {
     //Example key
     string hex="AABB09182736CCDD";   //64 bit key
-    string key=hexToBinary(hex);
+    // string key=hexToBinary(hex);
     //Generate subkeys 
     string subkeys[16];         //Empty array
-    generate_subkeys(key, subkeys);
+    generate_subkeys(hexToBinary(hex), subkeys);
 
     //Print the subkeys
     for(int i=0;i<16;i++)
