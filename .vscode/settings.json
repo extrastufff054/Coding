@@ -1,5 +1,6 @@
 {
     "githubPullRequests.ignoredPullRequestBranches": [
         "master"
-    ]
+    ],
+    "cmake.sourceDirectory": "/workspaces/Coding/Cryptography/DES Algo"
 }
